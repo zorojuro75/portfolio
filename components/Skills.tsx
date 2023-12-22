@@ -5,6 +5,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { HiLightBulb } from "react-icons/hi";
 import { RiTeamFill } from "react-icons/ri";
 import { MdManageAccounts } from "react-icons/md";
+import { FaDatabase } from "react-icons/fa6";
 
 type Props = {};
 
@@ -32,6 +33,10 @@ const Skills = (props: Props) => {
           <div className="h-[100px] w-full bg-[#252734] p-5 flex gap-5 items-center">
             <SiTailwindcss className="text-3xl" />
             <div className="py-2">Tailwind</div>
+          </div>
+          <div className="h-[100px] w-full bg-[#252734] p-5 flex gap-5 items-center">
+            <FaDatabase className="text-3xl" />
+            <div className="py-2">MySQL</div>
           </div>
           <div className="h-[100px] w-full bg-[#252734] p-5 flex gap-5 items-center">
             <MdManageAccounts className="text-3xl" />

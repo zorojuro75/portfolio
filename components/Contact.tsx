@@ -2,6 +2,7 @@ import React from "react";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoMailSharp } from "react-icons/io5";
 import { SocialIcon } from "react-social-icons";
+import Resume from "./Resume";
 type Props = {};
 
 const Contact = (props: Props) => {
@@ -14,7 +15,7 @@ const Contact = (props: Props) => {
     <div className="bg-[#2a2c39]">
       <section
         id="contact"
-        className="bg-[#2a2c39] max-w-5xl md:mx-auto h-[60vh] flex flex-col items-center justify-center gap-5 mx-5"
+        className="bg-[#2a2c39] max-w-5xl md:mx-auto flex flex-col items-center justify-center gap-5 mx-5 my-5 md:py-20 py-5"
       >
         <h1 className="md:text-6xl text-3xl text-center py-10">Contact Me</h1>
 
@@ -36,6 +37,7 @@ const Contact = (props: Props) => {
             </div>
           ))}
         </div>
+        <Resume />
       </section>
     </div>
   );
