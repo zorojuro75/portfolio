@@ -7,10 +7,9 @@ type Props = {};
 
 const Project = (props: Props) => {
   return (
-    <>
       <section
         id="projects"
-        className="max-w-5xl md:mx-auto md:h-[100vh] flex flex-col justify-center mx-5 md:my-0 my-5"
+        className="max-w-5xl md:mx-auto md:h-[100vh] flex flex-col justify-center mx-5 my-5"
       >
         <div className="text-lg text-gray-500 "> II My Awesome Projects</div>
         <div className="md:text-5xl text-3xl">My Completed Projects</div>
@@ -67,7 +66,6 @@ const Project = (props: Props) => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 
