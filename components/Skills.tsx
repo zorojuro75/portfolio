@@ -23,14 +23,14 @@ const Skills = (props: Props) => {
             <Resume />
           </div>
         </div>
-        <div className=" flex flex-col gap-5 justify-center items-center text-gray-500 text-lg">
-          <div className="group h-[100px] w-[80%] bg-[#252734] p-5 flex justify-between gap-5 items-center shadow-lg cursor-pointer">
+        <div className=" flex flex-col gap-5 justify-center items-center text-gray-500 md:text-lg text-base">
+          <div className="group h-[100px] md:w-[80%] w-full bg-[#252734] p-5 flex justify-between gap-5 items-center shadow-lg cursor-pointer">
             <div className="flex gap-5 items-center">
               <GiArtificialIntelligence className="text-3xl" />
               <div className="py-2">Machine Learning</div>
             </div>
             <div className="p-2 shadow-lg bg-[#2a2c39] rounded">
-              View Details
+              Details
             </div>
             <div className="hidden group-hover:flex absolute top-[50%-1.25rem] right-20 w-[20%] flex-col gap-5">
               <div className="h-[100px] w-full bg-[#252734] p-5 flex gap-5 items-center">
@@ -43,13 +43,13 @@ const Skills = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="group h-[100px] w-[80%] bg-[#252734] p-5 flex justify-between gap-5 items-center shadow-lg cursor-pointer">
+          <div className="group h-[100px] md:w-[80%] w-full bg-[#252734] p-5 flex justify-between gap-5 items-center shadow-lg cursor-pointer">
             <div className="flex gap-5 items-center">
               <CgWebsite className="text-3xl" />
               <div className="py-2">Web Development</div>
             </div>
             <div className="p-2 shadow-lg bg-[#2a2c39] rounded">
-              View Details
+              Details
             </div>
             <div className="hidden group-hover:flex absolute top-[50%-1.25rem] right-20 w-[20%] flex-col gap-5">
               <div className="h-[100px] w-full bg-[#252734] p-5 flex gap-5 items-center">
@@ -66,13 +66,13 @@ const Skills = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="group h-[100px] w-[80%] bg-[#252734] p-5 flex justify-between gap-5 items-center shadow-lg cursor-pointer">
+          <div className="group h-[100px] md:w-[80%] w-full bg-[#252734] p-5 flex justify-between gap-5 items-center shadow-lg cursor-pointer">
             <div className="flex gap-5 items-center">
               <GiArtificialIntelligence className="text-3xl" />
               <div className="py-2">Soft Skills</div>
             </div>
             <div className="p-2 shadow-lg bg-[#2a2c39] rounded">
-              View Details
+              Details
             </div>
             <div className="hidden group-hover:flex absolute top-[50%-1.25rem] right-20 w-[20%] flex-col gap-5">
               <div className="h-[100px] w-full bg-[#252734] p-5 flex gap-5 items-center">
