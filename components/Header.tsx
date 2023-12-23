@@ -17,7 +17,7 @@ const Header = (props: Props) => {
     { label: "Skills", href: "#skills" },
     // { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
-    { label: "Contact Me", href: "#contact" },
+    { label: "Contact", href: "#contact" },
   ];
   return (
     <header className="sticky top-0 border-b border-gray-700 z-10 bg-[#252734]">
