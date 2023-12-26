@@ -7,7 +7,7 @@ type Props = {}
 const Resume = (props: Props) => {
   const saveFile = () => {
     saveAs(
-      "/cv.pdf",
+      "/CV.pdf",
       "sayed-al-banna-cv.pdf"
     );
   };
