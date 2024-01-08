@@ -29,7 +29,7 @@ const Skills = (props: Props) => {
               <GiArtificialIntelligence className="text-3xl" />
               <div className="py-2">Machine Learning</div>
             </div>
-            <div className="p-2 shadow-lg bg-[#2a2c39] rounded">
+            <div className="hidden md:block p-2 shadow-lg bg-[#2a2c39] rounded">
               Details
             </div>
             <div className="hidden group-hover:flex absolute top-[50%-1.25rem] right-20 w-[20%] flex-col gap-5">
@@ -48,7 +48,7 @@ const Skills = (props: Props) => {
               <CgWebsite className="text-3xl" />
               <div className="py-2">Web Development</div>
             </div>
-            <div className="p-2 shadow-lg bg-[#2a2c39] rounded">
+            <div className="hidden md:block p-2 shadow-lg bg-[#2a2c39] rounded">
               Details
             </div>
             <div className="hidden group-hover:flex absolute top-[50%-1.25rem] right-20 w-[20%] flex-col gap-5">
@@ -71,7 +71,7 @@ const Skills = (props: Props) => {
               <GiArtificialIntelligence className="text-3xl" />
               <div className="py-2">Soft Skills</div>
             </div>
-            <div className="p-2 shadow-lg bg-[#2a2c39] rounded">
+            <div className="hidden md:block p-2 shadow-lg bg-[#2a2c39] rounded">
               Details
             </div>
             <div className="hidden group-hover:flex absolute top-[50%-1.25rem] right-20 w-[20%] flex-col gap-5">
