@@ -58,8 +58,8 @@ const Project = (props: Props) => {
       <div className="text-lg text-gray-500 "> II My Awesome Projects</div>
       <div className="md:text-5xl text-3xl">My Completed Projects</div>
       <div className="grid md:grid-cols-3 gap-5 md:mt-20 mt-5">
-        {projects.map((project) => (
-          <div className="bg-[#2a2c39] p-10 shadow-lg">
+        {projects.map((project, index) => (
+          <div className="bg-[#2a2c39] p-10 shadow-lg" key={index}>
             <div className="py-2 text-xl flex gap-2 justify-end">
               <a href={project.link} target="_blank" rel="noreferrer">
                 <IoIosLink />
