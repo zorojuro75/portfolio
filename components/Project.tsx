@@ -49,6 +49,13 @@ const Project = (props: Props) => {
       link: "https://food-menu-kappa-five.vercel.app",
       github: "https://github.com/zorojuro75/Food-Menu",
     },
+    {
+      img: "/project7.jpeg",
+      title: "Recipe app",
+      description: "A Recipe app where you can search for recipes",
+      link: "https://recipe-eight-rouge.vercel.app",
+      github: "https://github.com/zorojuro75/Recipe",
+    },
   ];
   return (
     <section
